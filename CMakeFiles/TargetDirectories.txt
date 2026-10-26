@@ -1,0 +1,3 @@
+/home/lcj/Code/teach4/vision-tracker/build/CMakeFiles/tracker.dir
+/home/lcj/Code/teach4/vision-tracker/build/CMakeFiles/edit_cache.dir
+/home/lcj/Code/teach4/vision-tracker/build/CMakeFiles/rebuild_cache.dir

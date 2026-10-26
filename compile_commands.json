@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lcj/Code/teach4/vision-tracker/build",
+  "command": "/usr/bin/c++  -I/home/lcj/Code/teach4/vision-tracker/include -g -o CMakeFiles/tracker.dir/src/main.cpp.o -c /home/lcj/Code/teach4/vision-tracker/src/main.cpp",
+  "file": "/home/lcj/Code/teach4/vision-tracker/src/main.cpp"
+}
+]
