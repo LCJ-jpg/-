@@ -209,12 +209,51 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/vector.tcc \
   ../include/test_frames.hpp \
   ../include/TargetManager.hpp \
-  ../include/the_base.hpp
+  ../include/the_base.hpp \
+  ../include/armor_type.hpp \
+  ../include/spinning_type.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/pstl/execution_defs.h
 
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+../include/armor_type.hpp:
 
 ../include/the_base.hpp:
 
 ../include/TargetManager.hpp:
+
+/usr/include/c++/11/bits/enable_special_members.h:
 
 ../include/test_frames.hpp:
 
@@ -231,6 +270,8 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
+
+../include/spinning_type.hpp:
 
 /usr/include/c++/11/bits/basic_ios.h:
 
@@ -320,6 +361,8 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
+/usr/include/c++/11/ext/aligned_buffer.h:
+
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -374,6 +417,8 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
@@ -389,6 +434,8 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -414,11 +461,15 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/c++/11/string:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
@@ -431,6 +482,8 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/bits/node_handle.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -461,6 +514,8 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/c++/11/bits/unordered_map.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -518,11 +573,15 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/string_view:
 
+/usr/include/c++/11/bits/std_function.h:
+
 /usr/include/c++/11/bits/allocator.h:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/11/functional:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -551,6 +610,8 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/11/unordered_map:
 
 /usr/include/c++/11/cctype:
 
@@ -603,6 +664,8 @@ CMakeFiles/tracker.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/iostream:
 
